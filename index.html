@@ -744,7 +744,7 @@
         // 🔑 PASTE YOUR OPENWEATHERMAP API KEY BELOW
         // Get one free at: https://openweathermap.org/api
         // =====================================================
-        const EMBEDDED_API_KEY = '635b870e7d48bc94d84c470533e01fb7';
+        const EMBEDDED_API_KEY = '0f75879beb3f62f4187e001dd6ad1589';
         // =====================================================
 
         function getApiKey() {
@@ -916,7 +916,7 @@
         // Main Forecast Function
         async function getForecast() {
             const apiKey = getApiKey();
-            if (!apiKey || apiKey === '635b870e7d48bc94d84c470533e01fb7') {
+            if (!apiKey || apiKey === 'YOUR_API_KEY_HERE') {
                 showError('API key not configured. If you\'re the site owner, add your key to the source code.');
                 return;
             }
@@ -1118,3 +1118,4 @@
 </body>
 
 </html>
+
